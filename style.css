@@ -3,10 +3,6 @@ body {
 	font-family: "Caveat", cursive;
 	font-size: 18px;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	background: white;
 	width: 500px;
@@ -37,9 +33,14 @@ body {
 .body-right {
 	padding: 10px; 
 }
-.body-right input {
+.body-right input, textarea {
     border: none;
     border-bottom: solid gray;
+	margin-right: 30px;
+}
+.body-right textarea{
+	width: 150px;
+	height: 100px;
 }
 .body-right input:nth-child(3) {
 	height: 80px;
